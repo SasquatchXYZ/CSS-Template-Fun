@@ -1,0 +1,85 @@
+/* Code that is applied throughout the page */
+* {
+    box-sizing: border-box;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+p {
+    color: #777777;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #4aaaa5;
+}
+body {
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    /*background: url("../images/sayagata-400px.png") repeat;*/
+}
+/* Code for the Header/Top Navigation Bar */
+.header {
+    width: 100%;
+    height: 80px;
+    line-height: 60px;
+    margin-top: 0;
+    background: #ffffff;
+    border-bottom: 1px solid #cccccc;
+}
+#top-nav {
+    width: 960px;
+    position: relative;
+    margin: 0 Auto 0 Auto;
+}
+#nav-header {
+    float: left;
+    font-size: 2em;
+    font-weight: 900;
+    /*position: absolute;*/
+    background: orangered;
+    color: #ffffff;
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid #cccccc;
+    height: 80px;
+    padding: 10px 30px;
+}
+#nav {
+    color: #777777;
+    float: right;
+    margin-right: 0;
+}
+#nav_left {
+    border-right: 1px solid #cccccc;
+    margin-right: 0;
+    padding-right: 20px;
+}
+#nav_center {
+    padding-left: 0;
+    padding-right: 0;
+}
+#nav_right {
+    border-left: 1px solid #cccccc;
+    margin-left: 0;
+    padding-left: 20px;
+}
+li {
+    display: inline-grid;
+    padding: 10px;
+}
+a:link {
+    text-decoration: none;
+    color: #777777;
+}
+a:visited {
+    text-decoration: none;
+    color: #777777;
+}
+a:hover {
+    text-decoration: line-through;
+    color: #777777;
+}
+a:active {
+    text-decoration: none;
+    color: #777777;
+}
