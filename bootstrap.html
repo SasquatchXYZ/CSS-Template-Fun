@@ -9,10 +9,11 @@
     <!-- Link to Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- Link to CSS Stylesheet -->
+    <link rel="stylesheet" href="assets/css/stylebootstrap.css" type="text/css">
 
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-dark transparent">
     <a class="navbar-brand" href="#">
         <img src="assets/images/bootstraplogo.png" width="30" height="30" class="d-inline-block align-top" alt="">
         Bootstrap
@@ -47,9 +48,138 @@
         <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            <button class="btn btn-outline-warning my-2 ml-2 my-sm-0">Login</button>
         </form>
     </div>
 </nav>
+
+<!-- Full Page Intro -->
+<div class="view"> <!--style="background-size: cover; background: url('assets/images/atl.jpg') no-repeat center center;"-->
+    <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+        <!-- Content -->
+        <div class="container">
+            <!--Grid row-->
+            <div class="row">
+                <!--Grid column-->
+                <div class="col-md-12 mb-4 white-text text-center">
+                    <h1 class="h1 text-uppercase font-weight-bold mb-0 pt-md-5 pt-5" style="color: white"><strong>Title</strong></h1>
+                </div>
+                <!--Grid column-->
+            </div>
+            <div class="row m-5">
+                <div class="col-md-6">
+                    <div class="card border-light bg-transparent">
+                        <div class="card-header bg-transparent border-light text-white text-center">User Inputs</div>
+                        <div class="card-body">
+                            <form>
+                                <div class="form-group text-white">
+                                    <label for="inputAddress">Address</label>
+                                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                                </div>
+                                <div class="form-group text-white">
+                                    <label for="inputAddress2">Address 2</label>
+                                    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                                </div>
+                                <div class="form-row text-white">
+                                    <div class="form-group col-md-5">
+                                        <label for="inputCity">City</label>
+                                        <input type="text" class="form-control" id="inputCity">
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <label for="inputState">State</label>
+                                        <select id="inputState" class="form-control">
+                                            <option selected>Choose...</option>
+                                            <option>Atlanta</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-md-3">
+                                        <label for="inputZip">Zip</label>
+                                        <input type="text" class="form-control" id="inputZip">
+                                    </div>
+                                </div>
+                                <div class="form-group form-row text-white">
+                                    <label for="train-name-input">Location</label>
+                                    <input class="form-control" id="train-name-input" type="text">
+                                </div>
+                                <div class="form-group form-row text-white">
+                                    <label for="destination-input">Destination</label>
+                                    <input class="form-control" id="destination-input" type="text">
+                                </div>
+                                <div class="form-group form-row text-white">
+                                    <label for="first-time-input">First Train Time (HHmm - 24 Hour Clock)</label>
+                                    <input class="form-control" id="first-time-input" type="text">
+                                </div>
+                                <div class="form-group form-row text-white">
+                                    <label for="frequency-input">Frequency (min)</label>
+                                    <input class="form-control" id="frequency-input" type="text">
+                                </div>
+                                <div class="form-row">
+                                    <button class="btn btn-outline-light" id="submit-query" type="submit">Submit</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card border-light bg-transparent">
+                        <div class="card-header bg-transparent border-light text-white text-center">Results Display</div>
+                        <div class="card-body bg-clear">
+                            <form>
+                                <div class="form-group text-white">
+                                    <label for="inputAddress">Address</label>
+                                    <input type="text" class="form-control" id="blank" placeholder="1234 Main St">
+                                </div>
+                                <div class="form-group text-white">
+                                    <label for="inputAddress2">Address 2</label>
+                                    <input type="text" class="form-control" id="blank2" placeholder="Apartment, studio, or floor">
+                                </div>
+                                <div class="form-row text-white">
+                                    <div class="form-group col-md-5">
+                                        <label for="inputCity">City</label>
+                                        <input type="text" class="form-control" id="blank3">
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <label for="blank">State</label>
+                                        <select id="blank4" class="form-control">
+                                            <option selected>Choose...</option>
+                                            <option>Atlanta</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-md-3">
+                                        <label for="inputZip">Zip</label>
+                                        <input type="text" class="form-control" id="blank5">
+                                    </div>
+                                </div>
+                                <div class="form-group form-row text-white">
+                                    <label for="train-name-input">Location</label>
+                                    <input class="form-control" id="blank7" type="text">
+                                </div>
+                                <div class="form-group form-row text-white">
+                                    <label for="destination-input">Destination</label>
+                                    <input class="form-control" id="blank6" type="text">
+                                </div>
+                                <div class="form-group form-row text-white">
+                                    <label for="first-time-input">First Train Time (HHmm - 24 Hour Clock)</label>
+                                    <input class="form-control" id="blank8" type="text">
+                                </div>
+                                <div class="form-group form-row text-white">
+                                    <label for="frequency-input">Frequency (min)</label>
+                                    <input class="form-control" type="text">
+                                </div>
+                                <div class="form-row">
+                                    <button class="btn btn-outline-light"  type="submit">Submit</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Grid row-->
+        </div>
+        <!-- Content -->
+    </div>
+    <!-- Mask & flexbox options-->
+</div>
 
 
 <!-- Link to jQuery -->
