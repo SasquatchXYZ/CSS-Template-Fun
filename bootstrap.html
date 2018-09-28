@@ -97,21 +97,25 @@
                                         <input type="text" class="form-control" id="inputZip">
                                     </div>
                                 </div>
-                                <div class="form-group form-row text-white">
-                                    <label for="train-name-input">Location</label>
-                                    <input class="form-control" id="train-name-input" type="text">
+                                <div class="form-row text-white">
+                                    <div class="form-group col-md-6">
+                                        <label for="hour-limit">Less Than...</label>
+                                        <input type="text" class="form-control" id="hour-limit" placeholder="3 hours">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="time-done">Out By...</label>
+                                        <input type="number" class="form-control" id="time-done" placeholder="1600">
+                                    </div>
                                 </div>
-                                <div class="form-group form-row text-white">
-                                    <label for="destination-input">Destination</label>
-                                    <input class="form-control" id="destination-input" type="text">
-                                </div>
-                                <div class="form-group form-row text-white">
-                                    <label for="first-time-input">First Train Time (HHmm - 24 Hour Clock)</label>
-                                    <input class="form-control" id="first-time-input" type="text">
-                                </div>
-                                <div class="form-group form-row text-white">
-                                    <label for="frequency-input">Frequency (min)</label>
-                                    <input class="form-control" id="frequency-input" type="text">
+                                <div class="form-row text-white">
+                                    <div class="form-group col-md-6">
+                                        <label for="travel-distance">Within... Distance</label>
+                                        <input type="text" class="form-control" id="travel-distance" placeholder="15 miles">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="travel-time">Within... Time</label>
+                                        <input type="number" class="form-control" id="travel-time" placeholder="20 min">
+                                    </div>
                                 </div>
                                 <div class="form-row">
                                     <button class="btn btn-outline-light" id="submit-query" type="submit">Submit</button>
@@ -127,7 +131,7 @@
                             <form>
                                 <div class="form-group text-white">
                                     <label for="inputAddress">Address</label>
-                                    <input type="text" class="form-control" id="blank" placeholder="1234 Main St">
+                                    <input type="text" class="form-control" id="blank1" placeholder="1234 Main St">
                                 </div>
                                 <div class="form-group text-white">
                                     <label for="inputAddress2">Address 2</label>
@@ -139,7 +143,7 @@
                                         <input type="text" class="form-control" id="blank3">
                                     </div>
                                     <div class="form-group col-md-4">
-                                        <label for="blank">State</label>
+                                        <label for="blank4">State</label>
                                         <select id="blank4" class="form-control">
                                             <option selected>Choose...</option>
                                             <option>Atlanta</option>
@@ -150,24 +154,28 @@
                                         <input type="text" class="form-control" id="blank5">
                                     </div>
                                 </div>
-                                <div class="form-group form-row text-white">
-                                    <label for="train-name-input">Location</label>
-                                    <input class="form-control" id="blank7" type="text">
+                                <div class="form-row text-white">
+                                    <div class="form-group col-md-6">
+                                        <label for="hour-limit">Less Than...</label>
+                                        <input type="text" class="form-control" id="blank6" placeholder="3 hours">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="time-done">Out By...</label>
+                                        <input type="number" class="form-control" id="blank7" placeholder="1600">
+                                    </div>
                                 </div>
-                                <div class="form-group form-row text-white">
-                                    <label for="destination-input">Destination</label>
-                                    <input class="form-control" id="blank6" type="text">
-                                </div>
-                                <div class="form-group form-row text-white">
-                                    <label for="first-time-input">First Train Time (HHmm - 24 Hour Clock)</label>
-                                    <input class="form-control" id="blank8" type="text">
-                                </div>
-                                <div class="form-group form-row text-white">
-                                    <label for="frequency-input">Frequency (min)</label>
-                                    <input class="form-control" type="text">
+                                <div class="form-row text-white">
+                                    <div class="form-group col-md-6">
+                                        <label for="travel-distance">Within... Distance</label>
+                                        <input type="text" class="form-control" id="blank8" placeholder="15 miles">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="travel-time">Within... Time</label>
+                                        <input type="number" class="form-control" id="blank9" placeholder="20 min">
+                                    </div>
                                 </div>
                                 <div class="form-row">
-                                    <button class="btn btn-outline-light"  type="submit">Submit</button>
+                                    <button class="btn btn-outline-light" id="blank10" type="submit">Submit</button>
                                 </div>
                             </form>
                         </div>
