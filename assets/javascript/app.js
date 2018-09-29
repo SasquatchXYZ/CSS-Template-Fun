@@ -3,10 +3,8 @@ $(document).ready(function () {
     console.log(currentday);
     let tomorrow = moment().add(2, 'days').format("ddd MMM Do YY");
     console.log(tomorrow);
-    }
 
-);
-
+    });
 
 
 
